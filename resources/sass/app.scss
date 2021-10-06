@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Icons
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// Variables
+@import './views/admin/variables';
+
+// Typography
+@import './views/admin/typography';
+
+// Admin styles
+@import './views/admin/app.scss';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

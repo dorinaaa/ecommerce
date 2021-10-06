@@ -1,0 +1,70 @@
+.sidebar {
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $secondary-theme-color;
+  overflow-x: hidden;
+  .logo {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: $white;
+    letter-spacing: 1px;
+    font-family: $font-family-sans-serif;
+  }
+}
+
+.links {
+  margin-top: 20%;
+  .icon {
+    padding: 10px 15px;
+  }
+}
+
+.logout {
+  position: absolute;
+  top: 92%;
+  text-align: center;
+  width: 100%;
+  font-family: $font-family-sans-serif;
+  span {
+    background: $white;
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: $secondary-theme-color;
+  }
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: $white;
+  display: block;
+  font-family: $font-family-sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+    background: #429df5;
+    color: #f2f2f2;
+  }
+}
+
+.main {
+  margin-left: 16%;
+  font-size: 28px;
+  .navbar {
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    background: $white;
+  }
+}
